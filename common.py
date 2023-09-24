@@ -3,7 +3,7 @@ from enum import Enum
 
 
 FT_BASE_IMG = "quay.io/wizhao/ft-base-image:0.9"
-TFT_TOOLS_IMG = "quay.io/wizhao/tft-tools:0.3"
+TFT_TOOLS_IMG = "quay.io/vpunj/tft-tools:0.1-x86_64"
 
 class TestType(Enum):
     IPERF_TCP  = 1
